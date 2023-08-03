@@ -1,0 +1,12 @@
+.collection-tile{
+    background-color: rgb(217, 255, 242);
+    height: auto;
+}
+.collection-tile a{
+    padding: 20% 5%;
+    display: block;
+    text-decoration: none;
+    color: #424548;
+    font-weight: 600;
+    font-size: 1.7em;
+}
