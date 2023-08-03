@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { Button, Container } from "@mui/material"
 import { Grid } from "@mui/material"
 
-import CollectionGrid from "./CollectionGrid"
+import CollectionGrid from "./layout/CollectionGrid"
 
 import './Home.css'
 

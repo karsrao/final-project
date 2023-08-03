@@ -1,0 +1,10 @@
+.about-list-wrap{
+    color: #424548;
+    margin: 30px auto;
+}
+.about-list-wrap ul{
+    list-style: none;
+}
+.about-list-wrap ul li{
+    margin-bottom: 15px;
+}
