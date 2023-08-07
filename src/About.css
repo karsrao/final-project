@@ -4,7 +4,15 @@
 }
 .about-list-wrap ul{
     list-style: none;
+    padding-left: 0;
 }
 .about-list-wrap ul li{
     margin-bottom: 15px;
+}
+
+.banner-image-wrap img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
 }
