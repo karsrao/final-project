@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 
@@ -6,6 +7,16 @@ import { Grid } from '@mui/material'
 import { Typography } from '@mui/material'
 
 function Footer(){
+    const [dogFact, setDogFact] = useState([])
+
+    const getDogFact = () => {        
+        fetch(`https://dog-api.kinduff.com/api/facts`)
+            .then(res => res.json())
+            .then(res => setDogFact(res))
+            
+    }
+    useEffect(getDogFact, [])
+
     return(
         <footer className="footer">
             <Container maxWidth="xl">
@@ -31,7 +42,7 @@ function Footer(){
                         </Typography>
                         <div className='fun-fact'>
                             <h4>Doggo Trivia:</h4>
-                            <p>Doggo ipsum bork long doggo mlem vvv, big ol sub woofer. He made many woofs borkf h*ck long woofer, blep extremely cuuuuuute.</p>
+                            <p>{dogFact.facts}</p>
                         </div>
                     </Grid>
                     <Grid item xs={12} md={6}>
