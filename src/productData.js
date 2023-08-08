@@ -110,22 +110,102 @@ const productData = [
         "productPrice": "$8.99",
         "productImage": "ice_cream_lover_bandana.jpg",
         "category": "bandanas"
-    },    
+    },
     {
-        "sku": "SKU022",
-        "productName": "Ice Cream Lover Bandana",
-        "productDescription": "Sweet 'Ice Cream Lover' bandana for dessert enthusiasts.",
-        "productPrice": "$8.99",
-        "productImage": "ice_cream_lover_bandana.jpg",
+        "sku": "SKU023",
+        "productName": "Red Leather Collar",
+        "productDescription": "Stylish red leather collar for your furry friend.",
+        "productPrice": "$15.99",
+        "productImage": "red_leather_collar.jpg",
+        "category": "collars"
+    },
+    {
+        "sku": "SKU024",
+        "productName": "Floral Collar",
+        "productDescription": "Charming floral pattern collar for a fashionable pet.",
+        "productPrice": "$12.99",
+        "productImage": "floral_collar.jpg",
+        "category": "collars"
+    },
+    {
+        "sku": "SKU025",
+        "productName": "Light Blue Collar",
+        "productDescription": "Light blue collar for a simple and elegant look.",
+        "productPrice": "$9.99",
+        "productImage": "light_blue_collar.jpg",
+        "category": "collars"
+    },
+    {
+        "sku": "SKU026",
+        "productName": "Brown Leather Collar",
+        "productDescription": "Classic brown leather collar for a timeless style.",
+        "productPrice": "$14.99",
+        "productImage": "brown_leather_collar.jpg",
+        "category": "collars"
+    },
+    {
+        "sku": "SKU027",
+        "productName": "Tennis Ball Collar",
+        "productDescription": "Playful tennis ball pattern collar for an active pet.",
+        "productPrice": "$11.99",
+        "productImage": "tennis_ball_collar.jpg",
+        "category": "collars"
+    },
+    {
+        "sku": "SKU028",
+        "productName": "Black and White Striped Collar",
+        "productDescription": "Bold black and white striped collar for a stylish look.",
+        "productPrice": "$13.99",
+        "productImage": "black_white_striped_collar.jpg",
+        "category": "collars"
+    },
+    {
+        "sku": "SKU029",
+        "productName": "Dark Blue Leash",
+        "productDescription": "Stylish dark blue leash for your furry friend.",
+        "productPrice": "$18.99",
+        "productImage": "dark_blue_leash.jpg",
         "category": "leashes"
     },
     {
-        "sku": "SKU022",
-        "productName": "Ice Cream Lover Bandana",
-        "productDescription": "Sweet 'Ice Cream Lover' bandana for dessert enthusiasts.",
-        "productPrice": "$8.99",
-        "productImage": "ice_cream_lover_bandana.jpg",
-        "category": "collars"
+        "sku": "SKU030",
+        "productName": "Light Blue Leash",
+        "productDescription": "Light blue leash for a coordinated look.",
+        "productPrice": "$17.99",
+        "productImage": "light_blue_leash.jpg",
+        "category": "leashes"
+    },
+    {
+        "sku": "SKU031",
+        "productName": "Brown Leather Leash",
+        "productDescription": "Classic brown leather leash for a timeless style.",
+        "productPrice": "$21.99",
+        "productImage": "brown_leather_leash.jpg",
+        "category": "leashes"
+    },
+    {
+        "sku": "SKU032",
+        "productName": "Red Striped Leash",
+        "productDescription": "Bold red striped leash for a statement look.",
+        "productPrice": "$19.99",
+        "productImage": "red_striped_leash.jpg",
+        "category": "leashes"
+    },
+    {
+        "sku": "SKU033",
+        "productName": "Geometric Leash",
+        "productDescription": "Modern geometric pattern leash for a trendy pet.",
+        "productPrice": "$16.99",
+        "productImage": "geometric_leash.jpg",
+        "category": "leashes"
+    },
+    {
+        "sku": "SKU034",
+        "productName": "Navy Blue Leash",
+        "productDescription": "Navy blue leash for a classic and versatile look.",
+        "productPrice": "$18.99",
+        "productImage": "navy_blue_leash.jpg",
+        "category": "leashes"
     },
 ]
 
