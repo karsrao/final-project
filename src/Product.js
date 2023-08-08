@@ -16,8 +16,8 @@ const Product = ({ items }) => {
         )
       })}
     </>
-  );
-};
+  )
+}
 
 
 export default Product

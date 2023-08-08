@@ -1,25 +1,44 @@
 import { useState, useEffect } from "react"
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 
 import { Container } from "@mui/material"
 
 import PageIntro from "./layout/PageIntro"
 import CollectionGrid from "./layout/CollectionGrid"
 import Collection from "./layout/Collection"
+import productData from "./productData";
 
 import "./Products.css"
 
 function Products(){
+    useEffect(() => {
+        document.title = `Diego and Co. | Our Collection`
+    }, [])
+
     const [selectedCollection, setSelectedCollection] = useState(null)
 
     const params = useParams()
-    const paramCat = params.category
-    const getCurrentCat = () => {
-        setSelectedCollection(paramCat)
-    }
-    useEffect(getCurrentCat, [paramCat])
-    
+    const navigate = useNavigate()
 
+    const paramCat = params.category
+    const foundCat = productData.some(el => el.category === paramCat);
+
+    const getCurrentCat = () => {
+        if(paramCat){
+            if(foundCat){
+                setSelectedCollection(paramCat)
+            } else {
+                navigate(`/whoops`)
+            }
+        }
+    }
+    useEffect(getCurrentCat, [paramCat, foundCat, navigate])
+    
+    
+        
+    
+    
+    
     return(
         <Container maxWidth="xl" className="main-container">
             <div className="Products">
