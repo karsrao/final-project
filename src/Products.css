@@ -1,3 +1,6 @@
 h2.collection-title{
+    font-size: 1.7em;
+    color: #424548;
     text-transform: capitalize;
+    margin-bottom: 50px;
 }

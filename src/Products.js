@@ -34,11 +34,6 @@ function Products(){
     }
     useEffect(getCurrentCat, [paramCat, foundCat, navigate])
     
-    
-        
-    
-    
-    
     return(
         <Container maxWidth="xl" className="main-container">
             <div className="Products">
