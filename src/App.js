@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
 import Products from './Products';
+import ProductDetail from './ProductDetail';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -16,7 +17,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<Products />}>
-          <Route path='/products/:category' element={<Products />} />
+          <Route path='/products/:category' element={<Products />}>
+            <Route path='/products/:category/:product' element={<ProductDetail />}/>
+          </Route>
         </Route>
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
