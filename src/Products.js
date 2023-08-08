@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { useParams } from 'react-router-dom';
 
 import { Container } from "@mui/material"
 
@@ -10,7 +11,15 @@ import "./Products.css"
 
 function Products(){
     const [selectedCollection, setSelectedCollection] = useState(null)
-    console.log(selectedCollection + "from products js")
+
+    const params = useParams()
+    const paramCat = params.category
+    const getCurrentCat = () => {
+        setSelectedCollection(paramCat)
+    }
+    useEffect(getCurrentCat, [paramCat])
+    
+
     return(
         <Container maxWidth="xl" className="main-container">
             <div className="Products">

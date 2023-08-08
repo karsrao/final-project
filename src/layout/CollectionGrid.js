@@ -4,7 +4,6 @@ import "./CollectionGrid.css"
 import { Grid } from "@mui/material"
 
 function CollectionGrid({ setSelectedCollection }){
-    console.log(setSelectedCollection + "from collection grid js")
     return(
         <Grid container spacing={4} className="" justifyContent="center" alignItems="center">
             <Grid item xs={12} md={4}>
