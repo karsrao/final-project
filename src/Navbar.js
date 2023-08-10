@@ -95,8 +95,31 @@ function Navbar() {
                         }}
                         >
                         {pages.map((page, index) => (
-                            <MenuItem key={index} onClick={handleCloseNavMenu}>
-                            <Typography textAlign="center">{page.shortname}</Typography>
+                            <MenuItem 
+                                key={index} 
+                                onClick={handleCloseNavMenu}
+                                sx={{
+                                    pr: 0,
+                                    pt: 0,
+                                    pl: 0,
+                                    pb: 0,
+                                }}>
+                                <Typography 
+                                    component="a" 
+                                    textAlign="center" 
+                                    href={page.url}
+                                    sx={{
+                                        pr: 5,
+                                        pt: 2,
+                                        pl: 3,
+                                        pb: 2,
+                                        fontWeight: 700,
+                                        color: 'inherit',
+                                        textDecoration: 'none',
+                                        }}
+                                    >
+                                        {page.shortname}                                        
+                                </Typography>
                             </MenuItem>
                         ))}
                         </Menu>
@@ -105,7 +128,7 @@ function Navbar() {
                         variant="h5"
                         noWrap
                         component="a"
-                        href=""
+                        href="/"
                         sx={{
                         mr: 2,
                         display: { xs: 'flex', md: 'none' },
@@ -125,7 +148,7 @@ function Navbar() {
                             key={index}
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'white', display: 'block' }}
-                            href={page.url}                         
+                            href={page.url}
                         >
                             {page.shortname}
                         </Button>
