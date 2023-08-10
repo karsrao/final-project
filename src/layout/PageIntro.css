@@ -12,4 +12,6 @@
 }
 .page-intro .banner-text-wrap p{
     line-height: 1.5;
+    font-size: 1.2em;
+    font-weight: 300;
 }
