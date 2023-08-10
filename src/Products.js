@@ -43,7 +43,7 @@ function Products(){
                 />
             </div>
             <div className="productList pt-30">
-                {selectedCollection ? 
+                {foundCat ? 
                     <>
                         <h2 className="collection-title">{selectedCollection}</h2>
                         <Collection selectedCollection={selectedCollection} />  
