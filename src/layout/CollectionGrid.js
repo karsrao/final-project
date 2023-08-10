@@ -10,9 +10,9 @@ function CollectionGrid({ setSelectedCollection }){
 
     return(
         <Grid container spacing={4} className="" justifyContent="center" alignItems="center">
-            {catItems.map((cat) => {
+            {catItems.map((cat, index) => {
                 return(
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} key={index}>
                         <div className="collection-tile">
                             <Link to={"/products/"+cat} onClick={() => setSelectedCollection(cat)}>Shop {cat}</Link>
                         </div>                    
