@@ -7,9 +7,17 @@
     height: 350px;
     object-fit: cover;
 }
+.product-thumbnail a{
+    text-decoration: none;
+}
 .product-thumbnail .name-text{
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
+    color: #333333;
+    text-decoration: none;
+}
+.product-thumbnail a:hover, .product-thumbnail .name-text:hover{
+    color: #000;
 }
 .product-thumbnail .price-text{
     font-size: 1rem;

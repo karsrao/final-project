@@ -22,3 +22,9 @@ h1, h2, h3, h4, h5, h6, p {
 .pt-30{
   padding-top: 30px;
 }
+.pl-30{
+  padding-left: 30px;
+} 
+.pr-30{
+  padding-right:30px;
+}

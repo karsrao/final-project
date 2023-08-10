@@ -1,0 +1,18 @@
+.product-details {
+    color: #424548;
+}
+.product-details img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.product-details .product-description{
+    line-height: 1.7;
+}
+.product-details .product-price{
+    font-weight:600;
+    font-size: 1.3em;
+}
+.product-details small{
+    color: rgb(122, 122, 122);
+}
