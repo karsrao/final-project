@@ -1,16 +1,20 @@
 # Diego and Co.
 
+## https://diego-and-co.netlify.app/
+
 This is a dog accessories e-commerce website created for my final project at General Assembly.
 
-## Stages:
-- Navigation 
-- Products 
+
+
+### Implemented:
+- Navigation
 - Categories
-- Filter 
+- Products
+- Random dog facts in footer
+
+
+### WIP:
+- Search
 - Scroll loads more products
-
-- Random picture of dog as pet of the week. 
-- Random dog facts in side nav 
-
-## Nice to haves:
-Search
+- Add to Cart functionality
+- creating own REST api
