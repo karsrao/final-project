@@ -9,6 +9,7 @@
 .home-banner-first .banner-text-wrap {
     width: 87%;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .home-banner-first .banner-text-wrap p{
     font-size: 1.6em;
@@ -34,11 +35,21 @@
 }
 .home-banner-second .banner-text-wrap{
     width: 87%;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 0 auto;    
 }
 .home-banner-second .banner-text-wrap p{
     font-size: 1.2em;
     line-height: 1.4;
     font-weight: 300;
+}
+
+@media (max-width:600px){
+    .home-banner-first .banner-text-wrap p{
+        font-size: 1.2em;
+        line-height: 1.3;
+    }    
+    .home-banner-second{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
 }

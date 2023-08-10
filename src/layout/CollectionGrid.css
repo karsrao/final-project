@@ -11,3 +11,9 @@
     font-size: 1.7em;
     text-transform: capitalize;
 }
+
+@media (max-width:600px){
+    .collection-tile a{
+        padding: 10% 5%;
+    }
+}
