@@ -35,6 +35,7 @@
 .home-banner-second .banner-text-wrap{
     width: 87%;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .home-banner-second .banner-text-wrap p{
     font-size: 1.2em;
